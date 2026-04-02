@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyMarket - Головна</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <header>
+        <div class="header-inner">
+            <a class="logo" href="index.html">SkyMarket</a>
+            <nav>
+                <a class="nav-btn active" href="index.html">Головна</a>
+                <a class="nav-btn" href="catalog.html">Каталог</a>
+                <a class="nav-btn" href="about.html">Про нас</a>
+                <a class="nav-btn" href="card.html">
+                    Кошик <span class="cart-count" id="cart-count">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="section">
+            <div class="section-title">Каталог товарів</div>
+            <div class="categories" id="categories"></div>
+            <div class="products-grid" id="catalog-grid"></div>
+        </div>
+    </main>
+
+ <footer>SkyMarket - магазин мрій!</footer>
+    
+    <div class="toast" id="toast"></div>
+
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/utils.js"></script>
+</body>
+</body>
+</html>

@@ -11,14 +11,35 @@
         <div class="header-inner">
             <a class="logo" href="index.html">SkyMarket</a>
             <nav>
-                <a class="nav-btn active" href="">Головна</a>
-                <a class="nav-btn" href="">Каталог</a>
-                <a class="nav-btn" href="">Про нас</a>
-                <a class="nav-btn" href="">
+                <a class="nav-btn active" href="index.html">Головна</a>
+                <a class="nav-btn" href="catalog.html">Каталог</a>
+                <a class="nav-btn" href="about.html">Про нас</a>
+                <a class="nav-btn" href="card.html">
                     Кошик <span class="cart-count" id="cart-count">0</span>
                 </a>
             </nav>
         </div>
     </header>
+
+    <main>
+        <div class="hero">
+            <h1>Завголовок</h1>
+            <p>текст</p>
+            <a class="btn-primary" href="catalog.html">Перейти до каталогу</a>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Популярні товари</div>
+            <div class="products-grid" id="home-featured"></div>
+        </div>
+    </main>
+
+    <footer>SkyMarket - магазин мрій!</footer>
+    
+    <div class="toast" id="toast"></div>
+
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/utils.js"></script>
 </body>
 </html>
