@@ -91,7 +91,11 @@
                 '<a class="btn-primary" href="order.html" style="display:block;text-align:center;margin-top:20px">Оформити замовлення</a>';
             container.appendChild(summary);
         }
- 
+        function deleteItem(id) {
+            removeFromCart(id);
+            renderCart();
+        }
+        
         updateCartCount();
         renderCart();
     </script>
