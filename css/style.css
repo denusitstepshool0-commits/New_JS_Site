@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Story+Script&family=Zen+Dots&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Roboto+Slab:wght@100..900&family=Story+Script&family=Zen+Dots&display=swap');
 :root {
   --bg: #f5f2ed;
   --surface: #ffffff;
-  --accent: #c0392b;
+  --accent: #E8A87C;
   --accent2: #e8d5b0;
-  --text: #1a1a1a;
+  --text: #2F3E46;
   --muted: #888;
   --border: #e0dbd3;
   --radius: 8px;
@@ -127,6 +130,7 @@ nav {
 }
 
 .product-card {
+  font-family: "Lobster Two", sans-serif;
   background-color: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -209,6 +213,7 @@ nav {
 }
 
 .hero h1 {
+  font-family: "Lobster Two", sans-serif;
   font-size: 64px;
   font-weight: bold;
   margin-bottom: 15px;

@@ -2,7 +2,7 @@ function createProductCard(p) {
     var a = document.createElement("a");
     a.className = "product-card";
     a.href = "#";
-    a.innerHTML =
+    a.innerHTML = 
         '<div class="product-img">' + p.emoji + "</div>" +
         '<div class="product-info">' +
             '<div class="product-name">' + p.name + "</div>" +
@@ -12,15 +12,15 @@ function createProductCard(p) {
                 '<button class="btn-add">' + "Кошик" + "</button>" +
             "</div>" +
         "</div>";
-        
-        let btn = a.querySelector(".btn-add");
+
+    let btn = a.querySelector(".btn-add");
     btn.addEventListener("click", function (e) {
         e.preventDefault();
         e.stopPropagation();
         addToCart(p.id, 1);
     });
 
-        return a;
+    return a;
 }
 
 let toastTimer = null;
